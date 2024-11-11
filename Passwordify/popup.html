@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwordify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <label>
+        Length: <input type="number" id="length" min="1" value="12">
+    </label>
+    <label>
+        <input type="checkbox" id="include-numbers">
+        Include Numbers
+    </label>
+    <label>
+        <input type="checkbox" id="include-special">
+        Include Special Characters
+    </label>
+    <label>
+        <input type="checkbox" id="include-uppercase">
+        Include Uppercase Letters
+    </label>
+    <label>
+        <input type="checkbox" id="include-lowercase">
+        Include Lowercase Letters
+    </label>
+    <label>
+        <input type="checkbox" id="include-emoji">
+        Use weird unicodes, emojis
+    </label>
+    <button id="generate">Generate Password</button>
+    <textarea id="password-output" readonly></textarea>
+    <button id="save-password">Save Password</button>
+    <button id="view-passwords">View Saved Passwords</button>
+
+    <footer>
+        <p><a href="https://azerium.pro/terms/passwordify" target="_blank">Terms of Service</a> | <a href="https://azerium.pro/privacypolicies/passwordify" target="_blank">Privacy Policy</a></p>
+    </footer>
+
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 360px; /* Adjusted width */
+    height: auto; /* Auto height based on content */
+    box-sizing: border-box; /* Include padding and border in width/height */
+}
+
+h1 {
+    color: #5865f2;
+    margin-bottom: 15px;
+    font-size: 22px; /* Slightly smaller font size */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Reduced spacing between elements */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+textarea {
+    width: 100%; /* Full width textarea */
+    height: 60px; /* Adjusted height */
+    margin-top: 10px;
+    padding: 8px; /* Adjusted padding */
+    font-size: 14px; /* Slightly smaller font size */
+}
+
+button {
+    background-color: #5865f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px; /* Adjusted padding */
+    cursor: pointer;
+    font-size: 14px; /* Adjusted font size */
+    margin-top: 10px; /* Space between buttons */
+}
+
+button:hover {
+    background-color: #4752c4;
+}
+
+#generate, #save-password, #view-passwords {
+    width: 100%; /* Full width buttons */
+    margin-top: 10px; /* Space between buttons */
+}
+
+footer {
+    margin-top: 20px; /* Space above footer */
+    font-size: 12px; /* Smaller font size for footer */
+    color: #666; /* Slightly lighter color for footer */
+    text-align: center; /* Center align footer text */
+}
+
+footer p {
+    margin: 10px 0 0; /* Margin adjustments for footer text */
+}
+
+footer a {
+    color: #5865f2; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
